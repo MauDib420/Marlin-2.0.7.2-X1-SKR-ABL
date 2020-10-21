@@ -1,6 +1,6 @@
 # Marlin 3D Printer Firmware
 
-<img src="https://repository-images.githubusercontent.com/304766789/2f644e00-1021-11eb-9e7e-73c362914d48" />
+<img src="https://repository-images.githubusercontent.com/306174387/14bb1c00-1409-11eb-9885-fc632b317153" />
 
 ## 2.0.7.2 Modified for Artillery Sidewinder X1
 
@@ -23,6 +23,8 @@ Review the Firmware info with M115 and my settings with M503. PID-Tuning for bot
 - Minus > White
 
 The black wire from the BLTouch remains unconnected. You will need 4 Dupont pins to connect the BLT. If you are unsure, please refer to the PDF documentation from the [Waggster mod](https://3duk.co.uk/index.php?action=downloads;sa=view;down=20). The brown wires with JST plug on your stock board will be moved to the servos port, the single black wire connects to the right pin on the probe port (0.10, check the bottom of your SKR).
+
+Connect the 3 brown wire JST connector to SERVO and the single black wire to pin 0.10 on probe.
 
 After flashing the firmware your display may report an error. This is because there's currently no mesh stored.
 
